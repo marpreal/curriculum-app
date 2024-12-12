@@ -5,8 +5,21 @@ function Experience() {
     <section className="cv-section">
       <h2>Experience</h2>
 
+      <h3>Frontend developer - Capgemini, Client AllFunds</h3>
+      <p className="date-info">Valencia, Valencia - 09/2024 to Current</p>
+      <p>
+        Only frontend developer of GenAi AllFunds Application. 
+        <br />
+        Environment: Amazon Web Services (AWS)
+        <br />
+        Technologies: JavaScript, React.
+        <br />
+        Project version controller with GIT, GitLab & GoogleCloud. Developing all functionalities and components of a web application and testing.
+        Deployment to corporative environments.
+      </p>
+
       <h3>Frontend developer - Capgemini, Client Openbank</h3>
-      <p className="date-info">Valencia, Valencia - 11/2023 to Current</p>
+      <p className="date-info">Valencia, Valencia - 11/2023 to 09/2024</p>
       <p>
         Member of Openbank Cobranded WEB team. 
         <br />

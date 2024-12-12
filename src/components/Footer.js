@@ -10,7 +10,7 @@ function Footer() {
         </address>
         <div className="social-links">
           <a href="https://www.linkedin.com/in/martapretel/" target="_blank" rel="noopener noreferrer" className="linkedin-link">LinkedIn</a>
-          <a href="https://github.com/MartaPre" target="_blank" rel="noopener noreferrer" className="github-link">GitHub</a>
+          <a href="https://github.com/marpreal" target="_blank" rel="noopener noreferrer" className="github-link">GitHub</a>
         </div>
     </footer>
   );

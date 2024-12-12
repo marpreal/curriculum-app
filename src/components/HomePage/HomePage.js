@@ -64,7 +64,7 @@ function HomePage({ showDevMode, setShowDevMode }) {
                         <h2>Welcome to My Creation!</h2>
                         <p>This platform is intricately crafted, showcasing a harmonious blend of SASS, JavaScript, and a touch of retro style aesthetics. It's an embodiment of passion and creativity.</p>
             
-                        <p>If you're intrigued by the technicalities behind this web, the complete source code is available. Dive into the <a className="custom-link" href="https://github.com/MartaPre/mylab" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Feel free to use it as a blueprint for your projects or derive inspiration from it.</p>
+                        <p>If you're intrigued by the technicalities behind this web, the complete source code is available. Dive into the <a className="custom-link" href="https://github.com/marpreal/curriculum-app" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Feel free to use it as a blueprint for your projects or derive inspiration from it.</p>
           
                         <p>Want to chat? Whether it's feedback, collaboration, or just a casual talk about web development, I'd love to hear from you. Drop me an email at <a className="custom-link" href="mailto:marpreal97@gmail.com">marpreal97@gmail.com</a>.</p>
             
