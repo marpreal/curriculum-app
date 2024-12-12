@@ -1,0 +1,230 @@
+body.light, body.dark {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease;
+}
+
+body.light {
+  background: linear-gradient(to bottom right, #ff94f9, #4f48af);
+}
+
+body.dark {
+  background: linear-gradient(to bottom right, #1e1e2a, #3c3859);
+  color: #a8ff64;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  background-color: #1e1e2a;
+  color: #a8ff64;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 3px solid #a8ff64;
+  box-shadow: 0 0 15px #a8ff64;
+}
+
+.cv-section {
+  margin-bottom: 20px;
+  border-left: 3px dashed #a8ff64;
+  padding-left: 15px;
+
+  h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff94f9;
+      border-bottom: 3px solid #a8ff64;
+      padding-bottom: 15px;
+  }
+
+  h3 {
+      font-size: 18px;
+      color: #a8ff64;
+      border-bottom: 1px solid #ff94f9;
+      padding-bottom: 8px;
+  }
+}
+
+address, p {
+  font-size: 14px;
+  color: #ff94f9;
+}
+
+ul {
+  list-style-type: square;
+
+  li {
+      color: #a8ff64;
+  }
+}
+
+a {
+  color: #ff94f9;
+  text-decoration: none;
+
+  &:hover {
+      text-decoration: underline;
+      color: #a8ff64;
+  }
+}
+
+.images-container {
+  position: fixed;
+  top: 75px;
+  left: 20px;
+  z-index: 1;
+
+  &.right {
+      left: auto;
+      right: 20px;
+      margin-left: 10px;
+  }
+
+  .hover-text {
+      display: none;
+      position: absolute;
+      top: 50%;
+      white-space: nowrap;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #a8ff64;
+      padding: 5px;
+      border-radius: 5px;
+      pointer-events: none;
+
+      &.right {
+          left: auto;
+          right: 100%;
+          margin-right: 10px;
+      }
+  }
+}
+
+  .date-info {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff94f9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .image-button {
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    display: block;
+  }
+
+  .image-button img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+
+  .image-button:hover img {
+    opacity: 1;
+  }
+
+  .hover-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #a8ff64;
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+  }
+
+  .image-button:hover .hover-text {
+    display: block;
+  }
+
+  .hamburger-menu {
+    position: fixed;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #a8ff64;
+    cursor: pointer;
+    outline: none;
+    margin-left: 0;
+  }
+
+  .hamburger-menu.right {
+    left: unset;
+    right: 20px;
+  }
+
+  .image-button:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .images-container.right {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .menu-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+  }
+
+  .menu-container.right {
+    left: unset;
+    right: 20px;
+    flex-direction: row-reverse;
+  }
+  .toggle-position {
+    position: fixed;
+    font-size: 16px;
+    background-color: #4f48af;
+    border: 2px solid #a8ff64;
+    color: #a8ff64;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 30px;  
+  }
+
+  .toggle-position:hover {
+    background-color: #a8ff64;
+    color: #1e1e2a;
+  }
+
+  .toggle-position.right {
+    left: unset;
+    right: 50px;
+  }
+
+
+  .images-container.right .hover-text {
+    left: auto;
+    right: 100%;
+    margin-right: 10px;
+    margin-left: 0;
+  }
